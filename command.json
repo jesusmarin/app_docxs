@@ -1,0 +1,15 @@
+[
+    {
+        "init": "yarn init",
+        "express": "yarn add express",
+        "nodemon": "npm install --save-dev nodemon",
+        "jsonwebtoken":"yarn add jsonwebtoken",
+        "dotenv":"yarn add dotenv",
+        "officegen":"npm install officegen",
+        "docx-templater":"yarn add docxtemplater",
+        "pizzip":"yarn add pizzip",
+        "mammoth":"npm install mammoth",
+        "superagent":"yarn add superagent",
+        "babel-preset-es2015":"npm install babel-cli babel-preset-es2015  --save-dev"
+    }
+]

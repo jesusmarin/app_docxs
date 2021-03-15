@@ -1,0 +1,7 @@
+juan:10
+luis:10
+andres:11
+fernando:7
+carlos:15
+enrique:6
+cesar:2
