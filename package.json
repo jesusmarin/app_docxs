@@ -8,9 +8,10 @@
   "keywords": [],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./index.js",
+    "dev": "nodemon ./src/index.js",
+    "devp": "nodemon --exec babel-node ./src/index.js",
     "docg": "nodemon ./controllers/generate.js",
-    "docp": "nodemon --exec babel-node  ./controllers/index.js"
+    "docp": "nodemon --exec babel-node ./controllers/index.js"
   },
   "dependencies": {
     "docxtemplater": "^3.20.1",
@@ -23,8 +24,10 @@
     "superagent": "^6.1.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
     "nodemon": "^2.0.7"
   }
 }

@@ -3,7 +3,7 @@
 
 pasando datos desde un Json se renderiza un template y genera un docx
 
-## Comenzando 🚀
+## Como funciona 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
